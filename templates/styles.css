@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #E9B711;
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2rem; 
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 1%;
+}
+
+input {
+    outline: none;
+    flex: 1;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding-left: 1.1em;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+
+input::placeholder {
+    color: #E3A501;
+    opacity: 1; /* Firefox */
+}
+
+.index-background, .login-background, .signup-background {
+    background: url('../static/netflix-background.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.logo-container {
+    padding-left: 10%;
+}
+.logo-container > img {
+    width: 165px;
+    height: 80px;
+}
+.login-signup-container {
+    padding-right: 10%;
+}
+.login-signup-button, .username-nav {
+    float: right;
+    margin-top: 3%;
+}
+
+.username-nav {
+    padding-top: 5%;
+}
+
+.username-nav > a {
+    text-decoration: none;
+    color:#E3A501;
+}
+
+.gmdb-description, .login-form, .signup-form {
+    width: 40%;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 27%;
+}
+.searchItems {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+.searchItems-results {
+    display: inline-flex;
+    position: relative;
+    width: 50%;
+    margin: 3% 0 3% 5%;
+}
+.searchIcon {
+    background-color: #E9B711;
+    padding: 10px;
+}
+
+.login-form, .signup-form {
+    padding: 2% 4% 4% 4%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.form-field {
+    padding-bottom: 5%;
+}
+
+.search-results-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.movie-result {
+    padding: 3% 3% 0 10%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.movie-result > img {
+    width: 440px;
+    height: 260px;
+    text-align: center;
+}
+
+.movie-header {
+    display: flex;
+    width: 70%;
+    margin-left: 11%;
+}
+
+.movie-title {
+    flex-grow: 8;
+}
+
+.movie-rating, .movie-rate-button {
+    flex-grow: 2;
+}
+
+.movie-imgs {
+    display: flex;
+    margin-top: 3%;
+}
+
+.movie-imgs > img {
+    width: 28%;
+    height: 40%;
+    flex-grow: 4;
+    padding-left: 5%;
+}
+
+.movie-description {
+    flex-grow: 6;
+    width: 80%;
+    padding: 0 5% 0 5%;
+}
